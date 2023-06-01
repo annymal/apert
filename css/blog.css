@@ -1,0 +1,130 @@
+@import "style.css";
+@import "bootstrap.min.css";
+@import "all.min.css";
+
+.nav__bottom{
+    background: #fff;
+}
+.contacts-top__icon{
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    line-height: 2rem;
+    text-align: center;
+    background: #285360;
+    color: #fff;
+    transition: all .5s ease-in-out;
+    margin-right: .5rem;
+}
+.socials__item{
+    color: #fff;
+    background: grey;
+    text-decoration: none;
+    width:2em;
+    height:2em;
+    line-height: 2;
+    text-align: center;
+    margin: .25rem;
+    border-radius: 50%;
+}
+.blog__menu{
+    margin-bottom: 2rem;
+}
+.slider{
+    position: relative;
+    height: 500px;
+    background: url("../img/line_pattern.png"), url("../img/blog.jpg") center/cover;
+}
+.menu__title {
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0.7rem 0;
+    border-bottom: 1px solid #b3b7b9;
+}
+.btn-default{
+    background: #252525;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .025em;
+    transition: all .5s ease-in-out;
+    padding: .5rem 2rem;
+}
+.menu__description{
+    margin: 1rem;
+}
+.sidebar__news{
+    display: block;
+}
+.sidebar__title{
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.sidebar__menu{
+    background: #fff;
+    padding: 1rem;
+}
+.blog__menu{
+    background: #fff;
+    padding: 1rem;
+}
+.iceberg{
+    max-width: 100%;
+}
+.menu__img{
+    float: left;
+    margin: 1rem;
+}
+.menu__icon{
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    float: left;
+    width: 60px;
+    height: 60px;
+    background: #252525;
+    color: #fff;
+    text-align: center;
+}
+.number{
+    font-size: 24px;
+}
+.menu__heading{
+    display: inline-block;
+    width: 100%;
+}
+.list{
+    padding: 0;
+    display: block;
+}
+.list__item{
+    list-style: none;
+}
+.list__link{
+    transition:all .5s ease-in-out;
+    display: block;
+    text-decoration: none;
+    color: #424040;
+    padding: 1rem 1.5rem;
+}
+.list__link:hover{
+    background: #285360;
+    color: white;
+    transition: all .5s ease-in-out;
+    transform: translateX(10px);
+}
+.list__style{
+    padding-right: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.clear:after{
+    content: "";
+    display: table;
+    clear: both;
+}
